@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Dancing Script', cursive;
+  font-size: larger;
+  font-weight: normal;
+  background-color: #f0e6f6;
+  color: #333;
+  text-align: center;
+
+  background-image: url(images/sfondo.jpg);
+  background-size: cover;
+
+h1 {
+  color: #df3947;
+  font-size: 60px;
+  margin-top: 25%;
+  margin-bottom: 15%;
+ text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+
+
+}
+
+.hearts {
+  display: flex;
+  gap: 10px;
+  margin-top: 10%;
+  margin-left: 1%;
+}
+
+.hearts span {
+  font-size: 30px;
+  color: #f08aa0;
+  cursor: pointer;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hearts span:hover {
+  color: #df3947;
+  transform: scale(1.4) rotate(-10deg);
+}
